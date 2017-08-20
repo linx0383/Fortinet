@@ -1,0 +1,2 @@
+This is the Maven project for question 2.
+There is always a scenario where the software need to connect to the database. In industry we always make Database Manager as a singleton pattern. So here I designed a Singleton Pattern class called ¡°DBManager¡±, it is a singleton pattern which controls all connection for database methods. To make it simple, I simply make the function as counting current database connection queries (which the maximum allowed number is 10) in multithreading condition.
